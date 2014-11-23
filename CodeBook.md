@@ -1,8 +1,7 @@
 Coursera Course - Getting and Cleaning Data (getdata-009)
-Final course project
-Submitted by:
-Werner Colangelo
-wernercolangelo@gmail.com
+* Final course project
+* Submitted by: Werner Colangelo
+* wernercolangelo@gmail.com
 
 Getting and Cleaning Data Course Project CodeBook
 =================================================
