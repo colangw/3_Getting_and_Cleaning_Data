@@ -19,12 +19,12 @@ This file describes the data, variables and transformations performed to clean u
  7. Create the final test set by merging the xTestDF, yTestDF and subjectTestDF data
  8. Combine training and test data to create a final data set
  9. Create a vector for the column names from the finalDataDF, which will be used to select the desired mean() & stddev() columns.
-10. Extract only the measurements on the mean and standard deviation for each measurement. by creating a logicalVector that contains TRUE values for the ID, mean() & stddev() columns and FALSE for others
-11. Subset finalDataDF table based on the logicalVector to keep only desired columns.
-12. Use descriptive activity names to name the activities in the data set by merging the finalDataDF set with the acitivityType table to include descriptive activity names.
-13. Update the colNames vector to include the new column names after merge.
-14. Appropriately label the data set with descriptive activity names.
-15. Reassigng the new descriptive column names to the finalDataDF set.
-16. Create a second, independent tidy data set with the average of each variable for each activity and each subject by creating a new table, finalDataDFNoactivityTypeDF without the activityTypeDF column.
-17. Summarize the finalDataDFNoactivityTypeDF table to include just the mean of each variable for each activity and each subject and merge the tidyDataDF with activityTypeDF to include descriptive acitvity names.
-18. Lastly, export the tidyDataDF set.
+ 10. Extract only the measurements on the mean and standard deviation for each measurement. by creating a logicalVector that contains TRUE values for the ID, mean() & stddev() columns and FALSE for others
+ 11. Subset finalDataDF table based on the logicalVector to keep only desired columns.
+ 12. Use descriptive activity names to name the activities in the data set by merging the finalDataDF set with the acitivityType table to include descriptive activity names.
+ 13. Update the colNames vector to include the new column names after merge.
+ 14. Appropriately label the data set with descriptive activity names.
+ 15. Reassigng the new descriptive column names to the finalDataDF set.
+ 16. Create a second, independent tidy data set with the average of each variable for each activity and each subject by creating a new table, finalDataDFNoactivityTypeDF without the activityTypeDF column.
+ 17. Summarize the finalDataDFNoactivityTypeDF table to include just the mean of each variable for each activity and each subject and merge the tidyDataDF with activityTypeDF to include descriptive acitvity names.
+ 18. Lastly, export the tidyDataDF set.
