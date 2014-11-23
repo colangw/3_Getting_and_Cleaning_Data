@@ -42,7 +42,6 @@ cat("\014")
 
 # set working directory to the location where the UCI HAR Dataset was unzipped
 # setwd("C:/Users/werner/Dropbox/Programming/Coursera/DataScience_JH_specialization/3_Getting_and_Cleaning_Data/Project/Data")
-setwd("C:/Users/werner/Dropbox/Programming/Coursera/DataScience_JH_specialization/3_Getting_and_Cleaning_Data/Project/SampleCode2/Data")
 
 # Read in the data from files
 featuresDF     = read.table('./features.txt',header=FALSE); # dim 561*2
